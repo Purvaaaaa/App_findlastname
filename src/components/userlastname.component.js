@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class UserLastName extends Component {
   constructor(props) {
     super(props);
-    this.baseURL = "https://appfindlastname.herokuapp.com/api/getusersurname"
+    this.baseURL = "https://reactsearchlastname.herokuapp.com/api/getusersurname"
     this.state = {
       username: '',
       responseResult:{},
